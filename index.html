@@ -2,14 +2,30 @@
 <html>
 <head>
     <title>M-Directory</title>
-    <meta http-equiv="refresh" content="5">
-    
+    <link rel="Stylesheet" media="screen and (max-width: 899px)" type="text/css" href="index_m.css"/>
+    <link rel="Stylesheet" media="screen and (min-width: 900px)" type="text/css" href="index_d.css"/>
+    <script>/*No Edit*/</script>
 </head>
 <body>
-    <form>
-        Username: <input type="text">
-        Password: <input type="password">
-        <input type="submit" value="Submit"/>
-    </form>
+    <div id="LoginPortal">
+     <div id="LoginPanel">
+        <a href="#"><div id="LTab">
+         <h2>Login</h2>
+        </div></a>
+        <a href="#"><div id="RTab">
+         <h2>Register</h2>   
+        </div></a>
+         <form id="CTab" action=""><br>
+          <input class="flex-box" id="A" placeholder="Username"          type="text"         required/> <br>
+          <input class="flex-box" id="B" placeholder="Password"          type="password"     required/> <br>
+          <input class="flex-box" id="C" placeholder="Password Again"    type="password"     required/> <br>
+          <input class="flex-box" id="C" placeholder="First Name"        type="text"         required/> <br>  
+          <input class="flex-box" id="C" placeholder="Last Name"         type="text"         required/> <br>  
+          <input class="flex-box" id="D" placeholder="Email"             type="email"        required/> <br>
+          <input class="flex-box" id="E" placeholder="Phone Number"      type="Phone"        required/> <br>
+          <input class="flex-box" id="C" value="Login"                   type="submit"/>     <br>
+         </form>
+     </div>
+    </div>
 </body>
 </html>
